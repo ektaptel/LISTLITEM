@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">listitemsearch</string>
+    <string name="user_name">User Name</string>
+    <string name="user_example_com">user@example.com</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="bloodgroup">BloodGroup</string>
+    <string name="firstname">firstName</string>
+    <string name="lastname">lastName</string>
+    <string name="maidenname">maidenName</string>
+    <string name="age_25">Age: 25</string>
+    <string name="gender_male">Gender: Male</string>
+    <string name="email_user_example_com">Email: user@example.com</string>
+    <string name="phone_123_456_7890">Phone: 123-456-7890</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="birthdate">BirthDate</string>
+    <string name="EyeColor">Eyecolor</string>
+    <string name="Hair">Hair</string>
+    <string name="Address">Address</string>
+    <string name="Coordinates">Coordinates</string>
+    <string name="Country">Country</string>
+    <string name="macAddress">macAddress</string>
+    <string name="University">University</string>
+    <string name="Bank">Bank</string>
+    <string name="Company">Company</string>
+    <string name="Ein">Ein</string>
+    <string name="Ssn">Ssn</string>
+    <string name="UserAgent">UserAgent</string>
+    <string name="Crypto">Crypto</string>
+    <string name="Role">Role</string>
+    <string name="Ip">Ip</string>
+</resources>

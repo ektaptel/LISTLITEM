@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         app:layout_constraintTop_toBottomOf="@+id/cardViewTitle">
+
+        <ImageView
+
+            android:id="@+id/ivProfile"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewLink"
+         android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:orientation="vertical"
+            tools:ignore="InefficientWeight">
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvfName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/firstname"
+               />
+
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                  android:id="@+id/tvAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age_25" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_male" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_user_example_com" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_123_456_7890" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvBirthDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/birthdate" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvbloodGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bloodgroup" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/height" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvEyeColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EyeColor" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvHair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Hair" />
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvIp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ip" />
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Address" />
+
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvMacAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/macAddress" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvUniversity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/University" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvBank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Bank" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvCompany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Company" />
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvEin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ein" />
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvSsn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ssn" />
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvUserAgent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/UserAgent" />
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvCrypto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Crypto" />
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                 android:id="@+id/tvRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Role" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
